@@ -22,17 +22,8 @@ public class MainActivity extends AppCompatActivity {
         etPassword = findViewById(R.id.etPassword);
         btnLogin = findViewById(R.id.btnLogin);
 
-        btnLogin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                   openHomeActivity();
-            }
-        });
 
     }
 
-    public  void openHomeActivity(){
-        Intent intent = new Intent(getBaseContext(),HomeActivity.class);
-        startActivity(intent);
-    }
+
 }
